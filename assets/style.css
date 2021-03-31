@@ -72,3 +72,39 @@
     clear: both;
   }
   
+
+  /* media query */
+
+  @media screen and (max-width:420px){
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right, 
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 100%;
+        float: none;
+        
+    }
+
+    
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third, 
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    .row>h1 {
+        background-color: #F2F2CD;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+
+    hr{
+      margin: 0;
+      border: 1px solid black;
+    }
+
+     
+  }
+
